@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- Makes Your Website look good on all devices -->
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!-- Helps Google understand what your site is all about -->
+      <meta name="description" content="Daniel's Portfolio | Passionate web developer crafting aesthetic and responsive web experiences.">
+      <title>Daniel | Portfolio</title>
+      <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- HEADER: site title + navigation -->
+
+    <!-- Title -->
+    <header>
+        <h1><span>Daniel.</span></h1>
+        <!-- Navigation Bar -->
+         <nav aria-label="Main Navigation">
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Experience</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+         </nav>
+         <!-- Hamburger icon (for mobile menu toggle) -->
+          <button id="menu-btn" class="menu-btn" aria-label="Toggle Menu">
+            <!-- SVG icon from heroicons.com -->
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+        stroke-width="1.5" stroke="aqua" width="30" height="30">
+        <path stroke-linecap="round" stroke-linejoin="round"
+          d="M3.75 5.75h16.5M3.75 12h16.5M3.75 18.25h16.5" />
+      </svg>
+          </button>
+    </header>
+
+    <!-- MAIN CONTENT -->
+     <main>
+        <!-- HERO / ABOUT section -->
+        <section id="about" class="hero">
+            <h2>Overview</h2>
+            <p>Passionate about <span>web development</span> with interest in crafting sites that give an aesthetic feel</p>
+            <a href="#projects" class="btn">View My work</a>
+        </section>
+
+        <!-- Projects section -->
+         <section id="projects" class="projects">
+            <h2>Projects Worked On</h2>
+            <div class="projects-grid">
+                <!-- Each project as its own article for semantics -->
+                 <article class="project">Project 1</article>
+                 <article class="project">Project 2</article>
+                 <article class="project">Project 3</article>
+                 <article class="project">Project 4</article>
+            </div>
+         </section>
+
+         <!-- Contact Section -->
+          <section id="contact" class="contact">
+            <h2>Let's Get In Touch</h2>
+
+            <!-- Contact details use the <address> tag for SEO/Accessibility -->
+                <address class="contact-details">
+                    <p>📞<a href="tel:+250791832842">+250 791 832 842</a></p>
+                    <p>📧<a href="mailto:danielhustler.hacker@gmail.com">danielhustler.hacker@gmail.com</a></p>
+                </address>
+                
+                <!-- contact form -->
+                 <form action="#" class="contact-form">
+                    <!-- Label connects to input via "for" and "id" -->
+                     <label for="name">Name</label>
+                     <input type="text" name="name" id="name" placeholder="Your Name" required>
+                     <label for="email">Email</label>
+                     <input type="email" name="email" id="email" placeholder="Your Email" required>
+                     <label for="message">Message</label>
+                     <textarea name="message" id="message" cols="20" rows="5" placeholder="Your Message" required></textarea>
+                     <button type="submit" class="btn button">Send Message</button>
+                 </form>
+          </section>
+     </main>
+
+     <!-- footer -->
+      <footer>
+        <small>Copyright © 2025 Daniel NIYOMUGENGA | All Rights Reserved</small>
+      </footer>
+
+      <script src="script.js"></script>
+</body>
+</html>
