@@ -292,7 +292,8 @@ footer {
         grid-template-columns: 1fr;
     }
 
-    .hero h2 {
+    .hero h2,
+    .projects h2 {
         font-size: 1.8rem;
     }
 }
