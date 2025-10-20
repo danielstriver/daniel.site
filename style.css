@@ -249,6 +249,13 @@ nav a:hover {
     outline: none;
 }
 
+/* Managing the textarea size */
+.contact-form textarea {
+    resize: vertical;
+    min-height: 80px;
+    max-height: 140px;
+}
+
 .btn.button {
     border: none;
 }
