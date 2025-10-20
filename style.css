@@ -249,6 +249,10 @@ nav a:hover {
     outline: none;
 }
 
+.btn.button {
+    border: none;
+}
+
 footer {
     margin-top: 2rem;
     background: var(--bg-dark);
