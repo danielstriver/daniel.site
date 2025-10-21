@@ -304,3 +304,19 @@ footer {
         font-size: 1.8rem;
     }
 }
+
+/* Feedback messages for JS */
+#form-status {
+    margin-top: 1rem;
+    font-weight: 600;
+}
+
+/* Success message */
+.success {
+    color: var(--primary);
+}
+
+/* Error message */
+.error {
+    color: red;
+}

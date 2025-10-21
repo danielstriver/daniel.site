@@ -66,15 +66,18 @@
                 </address>
                 
                 <!-- contact form -->
-                 <form action="#" class="contact-form">
+                 <form action="#" id="contact-form" class="contact-form">
                     <!-- Label connects to input via "for" and "id" -->
                      <label for="name">Name</label>
-                     <input type="text" name="name" id="name" placeholder="Your Name" required>
+                     <input type="text" name="name" id="name" placeholder="Your Name">
                      <label for="email">Email</label>
-                     <input type="email" name="email" id="email" placeholder="Your Email" required>
+                     <input type="" name="email" id="email" placeholder="Your Email">
                      <label for="message">Message</label>
-                     <textarea name="message" id="message" cols="20" rows="5" placeholder="Got something on mind, I'd love to hear from you!" required></textarea>
+                     <textarea name="message" id="message" cols="20" rows="5" placeholder="Got something on mind, I'd love to hear from you!"></textarea>
                      <button type="submit" class="btn button">Send Message</button>
+
+                     <!-- Message Area for JS feedback -->
+                      <div id="form-status"></div>
                  </form>
           </section>
      </main>
