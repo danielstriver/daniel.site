@@ -321,3 +321,10 @@ footer {
 .error {
     color: red;
 }
+
+#directing-msg {
+    margin-bottom: 1rem;
+    text-transform: capitalize;
+    color: ghostwhite;
+    font-weight: bold;
+}
