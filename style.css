@@ -175,7 +175,6 @@ nav a:hover {
 /* Contact Section */
 .contact {
     padding: 4rem 2rem;
-    background: var(--bg-dark);
     border-top: 2px solid var(--primary);
     text-align: center;
 }
@@ -215,7 +214,9 @@ nav a:hover {
     background: var(--bg-dark);
     padding: 2rem;
     border-radius: 10px;
-    box-shadow: 0 0 35px rgba(0, 255, 255, 0.2);
+    /* box-shadow: 0 0 35px rgba(0, 255, 255, 0.2); */
+    border-top: 2px solid var(--primary);
+    border-bottom: 2px solid var(--primary);
     max-width: 500px;
     margin: 0 auto;
     /* The above line centers the form */
